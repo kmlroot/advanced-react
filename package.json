@@ -4,7 +4,15 @@
   "description": "Advanced React course",
   "scripts": {
     "lint": "standard",
-    "start-dev": "DEBUG=advancedreact:* nodemon --experimental-modules lib/server.mjs"
+    "start-dev": "DEBUG=advancedreact:* nodemon lib/server.js",
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
   },
   "main": "lib/server.js",
   "repository": "https://github.com/fmauricios/advanced-react.git",
@@ -13,9 +21,15 @@
   "private": true,
   "devDependencies": {
     "nodemon": "^1.12.1",
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "webpack": "^3.6.0"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "chalk": "^2.1.0",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
