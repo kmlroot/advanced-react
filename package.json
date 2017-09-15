@@ -1,0 +1,23 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "description": "Advanced React course",
+  "scripts": {
+    "lint": "standard",
+    "start-dev": "DEBUG=advancedreact:* nodemon lib/server.js"
+  },
+  "main": "lib/server.js",
+  "repository": "https://github.com/fmauricios/advanced-react.git",
+  "author": "Mauricio Serna <mauricioserf@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
