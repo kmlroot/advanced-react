@@ -4,7 +4,7 @@
   "description": "Advanced React course",
   "scripts": {
     "lint": "standard",
-    "start-dev": "DEBUG=advancedreact:* nodemon lib/server.js"
+    "start-dev": "DEBUG=advancedreact:* nodemon --experimental-modules lib/server.mjs"
   },
   "main": "lib/server.js",
   "repository": "https://github.com/fmauricios/advanced-react.git",
