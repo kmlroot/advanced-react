@@ -18,6 +18,8 @@
   "dependencies": {
     "chalk": "^2.1.0",
     "ejs": "^2.5.7",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
